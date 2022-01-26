@@ -4,9 +4,16 @@
 
 int main(void){
     int num = 0;
-    int salida =0;
-    printf("Suma de los n primeros numeros: ");
+    //int pares =0;    
+    int naturales =0;
+    int fact= 0;
+    printf("Numero: ");
     scanf("%d", &num);    
-    salida = sumar(num);
-    printf("%d\n", salida);    
+    naturales = sumar(num);
+    printf("%d\n", naturales);    
+    //pares = sumarParesNaturales(num);
+    //printf("%d\n", pares);    
+    fact = factorial(num);
+    printf("%d\n", fact);    
+
 }
