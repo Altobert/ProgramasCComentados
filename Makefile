@@ -1,4 +1,4 @@
-salida_out = practicas
+salida_out = practica
 
 
 salida_headers = funciones.h
@@ -24,7 +24,6 @@ $(depends) : $(salida_source) $(salida_headers)
 
 clear :
 	$(RM) $(salida_out) $(salida_objects) $(zipfile) $(depends)
-	rm practicas
 
 .PHONY : build zip clean
 
